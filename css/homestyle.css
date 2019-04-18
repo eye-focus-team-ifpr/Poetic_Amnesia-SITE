@@ -5,14 +5,10 @@ body{
 
 .header {
     background-color: #020347;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
   }
 
-  p{
-    font-family: Bellerose;
-    color: white;
-  }
 
 .footer {
     left:0;
@@ -24,7 +20,18 @@ body{
     position: fixed;
   }
 
+  #imagem {
+    float: right;
+    width: 50px; 
+    height: 20px;
+  }
+
 @font-face { 
     font-family: Bellerose; 
     src: url('../Fonts/Bellerose.ttf'); 
 }
+
+p{
+    font-family: Bellerose;
+    color: white;
+  }

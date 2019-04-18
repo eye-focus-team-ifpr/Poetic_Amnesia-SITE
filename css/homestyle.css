@@ -9,6 +9,11 @@ body{
     text-align: center;
   }
 
+  p{
+    font-family: Bellerose;
+    color: white;
+  }
+
 .footer {
     left:0;
     bottom:0;
@@ -18,3 +23,8 @@ body{
     text-align: center;
     position: fixed;
   }
+
+@font-face { 
+    font-family: Bellerose; 
+    src: url('../Fonts/Bellerose.ttf'); 
+}

@@ -9,6 +9,10 @@ body{
     text-align: center;
   }
 
+/*  .header figure{
+    padding: 0 0 15px 0;
+  }*/
+
 
 .footer {
     left:0;
@@ -21,9 +25,9 @@ body{
   }
 
   #imagem {
-    float: right;
-    width: 50px; 
-    height: 20px;
+    margin-left: 1200px;
+    width: 100px; 
+    height: auto;
   }
 
 @font-face { 

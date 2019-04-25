@@ -6,7 +6,7 @@ body{
 }
 
 .header {
-    background-color: #020347;
+    background-color: #28128b;
     padding: 20px;
 
   }
@@ -25,7 +25,7 @@ body{
   ul li a{
     list-style: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     padding: 10px 10px;
@@ -83,14 +83,13 @@ body{
 p{
     font-family: Bellerose;
     font-size: 18px;
-    color: rgb(76, 76, 238);
+    color: white;
     text-align: justify;
     padding-left: 25px;
     padding-right: 25px;
   }
 
   h1 {
-    margin-left: 10px;
     font-family: Bellerose;
     font-size: 30px;
     color: rgb(76, 76, 238);

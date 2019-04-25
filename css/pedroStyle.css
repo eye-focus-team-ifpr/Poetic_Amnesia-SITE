@@ -14,27 +14,37 @@ body{
 /*  .header figure{
     padding: 0 0 15px 0;
   }*/
+  ul li{
+    border: 1px solid #1807fc;
+    display: inline-block;
+    border-right: 2px solid #659afd;
+    border-left: 2px solid #659afd;
+    padding: 5px;
+  }
 
-  .Links ul li a{
+  ul li a{
     list-style: none;
     text-decoration: none;
-    font-size: 30px;
-    font-family: Verdana, Arial, sans-serif;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
+    padding: 10px 10px;
+    
   }
-  .Links ul{
+
+ ul li a:hover {
+    background: rgb(66, 25, 245);
+    color: rgb(255, 250, 250);
+    -moz-box-shadow: 0 5px 3px 0 rgb(85, 158, 255);
+    -webkit-box-shadow: 0 5px 3px 0 rgb(59, 161, 245);
+    text-shadow: rgb(191, 209, 226);
+  }
+
+  ul{
     position: initial;
     text-align: center;
-    margin: -170px 0 70px 0;
+    margin: -80px 50px 10px 10px;
 
-  }
-
-  .Links ul li{
-    border: 1px solid #c0c0c0;
-    display: inline-block;
-    -moz-box-shadow: 0 3px 10px 0 #CCC;
-    margin-right: 30px;
-    -webkit-box-shadow: 0 3px 3px 0 #ccc;
   }
 
 
@@ -49,12 +59,21 @@ body{
   }
 
   #imagem {
-    margin-left: 1250px;
-    margin-top: -10px;
-    margin-bottom: -20px;
-    width: 50px; 
-    height: 50px;
+    margin-left: 1500px;
+    width: 60px; 
+    height: 30px;
   }
+
+  #imagem2 {
+    margin-left: 550px;
+    margin-bottom: 20px;
+  }
+
+  #imagem3 {
+    position: initial;
+    text-align: center;
+  }
+  
 
 @font-face { 
     font-family: Bellerose; 
@@ -64,4 +83,28 @@ body{
 p{
     font-family: Bellerose;
     font-size: 18px;
+    color: rgb(76, 76, 238);
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  h1 {
+    margin-left: 10px;
+    font-family: Bellerose;
+    font-size: 30px;
+    color: rgb(76, 76, 238);
+  }
+
+  h2 {
+    margin-left: 10px;
+    font-family: Bellerose;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(76, 76, 238);
+    padding-left: 25px;
+  }
+
+  hr {
+    color: rgb(66, 66, 255); 
   }

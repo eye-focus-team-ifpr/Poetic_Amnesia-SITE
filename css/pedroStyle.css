@@ -90,6 +90,7 @@ p{
   }
 
   h1 {
+    margin-left: 30px;
     font-family: Bellerose;
     font-size: 30px;
     color: rgb(76, 76, 238);
@@ -99,7 +100,7 @@ p{
     margin-left: 10px;
     font-family: Bellerose;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(76, 76, 238);
     padding-left: 25px;
   }

@@ -60,21 +60,6 @@ h1
     margin-right:30px;
 }
 
-.blogpostimg
-{
-    border:solid;
-    border-color:white;
-    border-width: 1px;
-    float:left;
-    margin-top:30px;
-    margin-left:30px;
-    margin-right:30px;
-}
-
-.blogpost
-{
-    padding-bottom: 135px;
-}
 
 ul li{
     border: 1px solid #1807fc;
@@ -108,3 +93,33 @@ ul li{
     margin: 10px 50px 10px 10px;
 
   }
+    
+.card
+{
+    margin-bottom:10px;
+    margin-top:10px;
+    margin-left:40px;
+}
+
+.imgborder
+{
+    border-style:solid;
+    border-color:white;
+    border-width: 1px;
+    float: left;
+    margin-right: 20px;
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+span{
+    color: #fff;
+    #white-space:nowrap;
+}
+
+p span 
+{
+    display: block;
+}

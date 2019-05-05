@@ -97,6 +97,26 @@ body{
     position: fixed;
   }
 
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
   #imagem {
     display: block;
     margin-left: auto;
@@ -117,6 +137,7 @@ body{
   #imagem3 {
     position: initial;
     text-align: center;
+	padding: 5px;
   }
   
 

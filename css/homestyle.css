@@ -120,7 +120,7 @@ body{
   #imagem {
     display: block;
     margin-left: auto;
-	margin right: auto;
+	  margin right: auto;
     width: 60px; 
     height: 30px;
   }
@@ -135,9 +135,12 @@ body{
   }
 
   #imagem3 {
-    position: initial;
-    text-align: center;
-	padding: 5px;
+  position: initial;
+  text-align: center;
+  padding: 5px;
+  margin-left:auto;
+  margin-right: auto;
+ 
   }
   
 
@@ -151,8 +154,15 @@ body{
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px;
+  height: 350px;
 }
+.column2 {
+  float: left;;
+  width: 29.33%;
+  display: block;
+
+}
+
 
 .row:after {
   content:"";
@@ -191,6 +201,8 @@ body{
  clear: both;
 }
 
+
+
 h2 {
   font-family: Bellerose;
   font-size: 30px;
@@ -209,7 +221,7 @@ h2 {
  }
 
 p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia;
     font-size: 20px;
     color: white;
     text-align: justify;
@@ -226,7 +238,6 @@ p{
     line-height: 1.5;
   }
 
-<<<<<<< HEAD
   h2 {
     font-family: Bellerose;
     font-size: 30px;
@@ -235,6 +246,7 @@ p{
     padding-bottom: 10px;
     padding-left: 10px;
   }
+
   h3 {
     font-family: Times;
     font-size: 20px;
@@ -244,8 +256,14 @@ p{
     padding-left: 10px;
   }
 
-=======
->>>>>>> 8cc8da8e9f02429a1281080483fba25f23a27157
+  
+  h4 {
+    font-family: Georgia;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+    text-indent: 1.5em;
+  }
   hr {
     color: rgb(66, 66, 255); 
   }

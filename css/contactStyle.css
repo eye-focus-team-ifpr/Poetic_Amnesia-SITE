@@ -1,0 +1,286 @@
+*{margin:0; padding: 0px;}*
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header {
+  background-image: url("../images/stars.jpg");
+    padding: 20px;
+
+  }
+
+
+
+* {box-sizing: border-box;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2e2c30;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(253, 247, 247);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: rgb(143, 172, 236);
+  color: black;
+  -moz-box-shadow: 0 5px 3px 0 rgb(122, 85, 255);
+  -webkit-box-shadow: 0 5px 3px 0 rgb(122, 85, 255);
+  text-shadow: rgb(14, 116, 211);
+}
+
+.topnav a.active {
+  background-color: rgb(94, 0, 245);
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(88, 0, 160);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: rgb(149, 164, 252);
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+.footer {
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: #020347;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+  }
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+  #imagem {
+    display: block;
+    margin-left: auto;
+	  margin-right: auto;
+    width: 60px; 
+    height: 30px;
+  }
+
+  #imagem2 {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+	width: 500px; 
+	height: 320px;
+  
+  }
+
+  #imagem3 {
+  position: initial;
+  text-align: center;
+  padding: 5px;
+  margin-left:auto;
+  margin-right: auto;
+ 
+  }
+  
+
+@font-face { 
+    font-family: Bellerose; 
+    src: url('../Fonts/Bellerose.ttf'); 
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 350px;
+}
+.column2 {
+  float: left;;
+  width: 29.33%;
+  display: block;
+
+}
+
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn {
+  width: 1000px;
+}
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-image: url ("../images/logo.jpg");
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #2e2c30;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+
+
+h2 {
+  font-family: Bellerose;
+  font-size: 30px;
+  color: rgb(74, 74, 243);
+  line-height: 1.5;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+ .leftcolumn, .rightcolumn {   
+   width: 100%;
+   padding: 0;
+ }
+ }
+
+p{
+    font-family: Georgia;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+    line-height: 1.5;
+    text-indent: 2em;
+  }
+
+  h1 {
+    font-family: Bellerose;
+    font-size: 30px;
+    color: rgb(76, 76, 238);
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-family: Bellerose;
+    font-size: 30px;
+    color: rgb(74, 74, 243);
+    line-height: 1.5;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  h3 {
+    font-family: Times;
+    font-size: 20px;
+    color: rgb(74, 74, 243);
+    line-height: 1.5;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  
+  h4 {
+    font-family: Georgia;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-top: 100px;
+    text-indent: 1.5em;
+  }
+  hr {
+    color: rgb(66, 66, 255); 
+  }
+
+.contactTitle
+{
+    font-family: Bellerose;
+    font-size: 50px;
+    color: rgb(76, 76, 238);
+    line-height: 1.5;
+}
+
+.socialMediaTitle
+{
+    font-family: Bellerose;
+    font-size: 50px;
+    color: rgb(76, 76, 238);
+    line-height: 1.5;
+}
+
+

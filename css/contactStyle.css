@@ -86,17 +86,6 @@ body{
   }
 }
 
-
-.footer {
-    left:0;
-    bottom:0;
-    width:100%;
-    background-color: #020347;
-    padding: 5px;
-    text-align: center;
-    position: fixed;
-  }
-
 .container {
   position: relative;
   max-width: 800px;
@@ -178,6 +167,16 @@ body{
   float: right;
   width: 25%;
   padding-left: 20px;
+}
+
+.footer {
+  background-image: url("../images/stars.jpg");
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
 .fakeimg {

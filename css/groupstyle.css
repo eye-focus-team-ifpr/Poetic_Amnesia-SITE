@@ -7,11 +7,9 @@ body{
 
 .header {
   background-image: url("../images/stars.jpg");
-    padding: 20px;
-
+   padding: 20px;
   }
-
-.footer {
+  .footer {
    background-image: url("../images/stars.jpg");
    left: 0;
    bottom: 0;
@@ -20,6 +18,8 @@ body{
    text-align: center;
    padding: 10px;
 }
+
+
 
 * {box-sizing: border-box;}
 
@@ -94,7 +94,6 @@ body{
   }
 }
 
-
 .container {
   position: relative;
   max-width: 800px;
@@ -155,7 +154,7 @@ body{
   height: 350px;
 }
 .column2 {
-  float: left;;
+  float: left;
   width: 29.33%;
   display: block;
 
@@ -201,6 +200,74 @@ body{
 
 
 
+ html {
+ box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column4 {
+  float: left;
+  width: 25.3%;
+  margin-bottom: 16px;
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .column4 {
+    width: 80%;
+    display: block;
+  }
+}
+
+.card2 {
+  box-shadow: 5px 5px 5px #6600CC, 2px 2px 2px #6666FF;
+  padding-bottom: 8px;
+}
+
+.container2 {
+  padding: 0 16px;
+}
+
+.container2::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-size: 20px;
+  font-family: Times;
+}
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #3399FF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2:hover {
+  background-color: #CCE5FF;
+}
+
+.boxshadow {
+	box-shadow: 10px, 10px grey;
+}
+
+
+
 h2 {
   font-family: Bellerose;
   font-size: 30px;
@@ -209,14 +276,6 @@ h2 {
   padding-bottom: 10px;
   padding-left: 10px;
 }
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
- .leftcolumn, .rightcolumn {   
-   width: 100%;
-   padding: 0;
- }
- }
 
 p{
     font-family: Georgia;

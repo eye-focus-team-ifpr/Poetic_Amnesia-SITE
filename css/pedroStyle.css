@@ -92,13 +92,12 @@ body{
 }
 
 .footer {
-    left:0;
-    bottom:0;
-    width:100%;
-    background-color: #020347;
-    padding: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
     text-align: center;
-    position: fixed;
+    padding: 10px;
   }
 
   #imagem {
@@ -120,6 +119,10 @@ body{
     position: initial;
     text-align: center;
   }
+
+.rightcolumn .card p a,.leftcolumn .card p a, .rightcolumn .card a {
+  text-decoration: none;
+}
 
 .column a img{
   padding: 0px 0px 0px 10px;
@@ -152,7 +155,7 @@ body{
 
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 75%;
   padding-left: 20px;
 }
 

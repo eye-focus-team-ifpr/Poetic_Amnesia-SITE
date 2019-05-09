@@ -1,4 +1,4 @@
-*{margin:0; padding: 0px;}*
+﻿*{margin:0; padding: 0px;}*
 
 body{
     background-color: black;
@@ -150,15 +150,29 @@ body{
 
 .column {
   float: left;
-  width: 50%;
+  width: 36%;
   padding: 10px;
-  height: 350px;
+  height: 300px;
+   margin-top: 20px;
+  margin-left: 20px;
 }
+
+
 .column2 {
   float: left;
-  width: 29.33%;
-  display: block;
+  width: 50%;
+  padding: 10px;
+  height: 200px;
+}
 
+.column3 {
+  float: right;
+  width:20%;
+  padding: 10px;
+  height: 500px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 
@@ -262,8 +276,3 @@ p{
     padding-top: 100px;
     text-indent: 1.5em;
   }
-  hr {
-    color: rgb(66, 66, 255); 
-  }
-
-}

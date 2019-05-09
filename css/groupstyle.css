@@ -147,20 +147,6 @@ body{
 }
 
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 350px;
-}
-.column2 {
-  float: left;
-  width: 29.33%;
-  display: block;
-
-}
-
-
 .row:after {
   content:"";
   display: table;
@@ -210,13 +196,25 @@ body{
 
 .column4 {
   float: left;
-  width: 31.3%;
+  width: 25.3%;
   margin-bottom: 16px;
   padding: 20px;
   padding-left: 30px;
   padding-right: 10px;
   margin: 5px;
 }
+
+.rightcol {
+  float: right;
+  width:20%;
+  padding: 10px;
+  height: 500px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: #3399FF;
+}
+
 
 @media screen and (max-width: 500px) {
   .column4 {
@@ -299,9 +297,16 @@ body{
 }
 
 
+ul {
+  padding: 20px;
+}
 
-
-
+ul li{
+  background: rgba(76, 76, 238, 0.2);
+  padding: 7px;
+  margin-left: 3px;
+  list-style-type: none;
+}
 
 h2 {
   font-family: Bellerose;
@@ -339,10 +344,10 @@ p{
     padding-left: 10px;
   }
 
-  h3 {
-    font-family: Times;
-    font-size: 20px;
-    color: rgb(74, 74, 243);
+  h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
     line-height: 1.5;
     padding-bottom: 10px;
     padding-left: 10px;

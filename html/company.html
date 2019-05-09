@@ -42,8 +42,52 @@
 <div class="row">
     <div class="column3"  style="background-color:#111">
     <h2>Who we are</h2>
-    <p> cards dos integrantes</p> 
+
+    <div class="photoleft">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="../images/ju2.jpg" alt="Avatar" style="width:150px;height:200px;">
     </div>
+    <div class="flip-card-back">
+    <h4> Juliana Destefani </h4>
+    <h5> Modeladora, Game Designer, Animadora, Roteiristas e Pesquisadora </h5>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="photoleft">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="../images/ju2.jpg" alt="Avatar" style="width:150px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+    <h4> Juliana Destefani </h4>
+    <h5> Modeladora, Game Designer, Animadora, Roteiristas e Pesquisadora </h5>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="photoleft">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+    <div class="flip-card-front">
+    <img src="../images/ju2.jpg" alt="Avatar" style="width:150px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+    <h4> Juliana Destefani </h4>
+    <h5> Modeladora, Game Designer, Animadora, Roteiristas e Pesquisadora </h5>
+    </div>
+    </div>
+    </div>
+    </div>
+   
+
+ </div>
+
 
   <div class="column" style="background-color:#111">
     <h2>About Us</h2>
@@ -78,16 +122,76 @@
   <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>Bastidores</h2>
+      <h2>Gallery</h2>
+      <br>
       <h5>what we are doing?, April 3, 2019</h5>
+  <br> 
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="../images/1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
 
-	  
-      <a target="_E3 event" href="../images/e6.jpg"><<div class="fakeimg"> <img src="../images/e6.jpg" alt="Electronic Entertainment Expo"  id="imagem3" title="E3" width="740px" height="450px"> </div> </a>
-      <p>Um pouco sobre o evento...</p>
-      <p>A E3, ou Electronic Entertainment Expo, ocorre desde 1995 em Los Angeles, e é o evento mais relevante da indústria dos videogames em todo o planeta.
-      Nele as companhias apresentam as suas mais recentes apostas no setor, e os fãs contam com um espaço onde podem ficar mais próximos das novidades dos principais desenvolvedores, ostentando uma área de exposição para testar os jogos de centenas de desenvolvedores.</p>
-     </div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="../images/2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="../images/3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+
+  </div>
 	</div>
+
+
   
  <div class="rightcolumn">
     <div class="card">
@@ -122,6 +226,7 @@
  </div>
  </div>
 </div>
+
 </body>
 
 <br>

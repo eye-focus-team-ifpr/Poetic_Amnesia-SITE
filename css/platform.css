@@ -177,7 +177,9 @@ body{
   padding: 20px;
   margin-left:20%;
   margin-right:20%;
-  margin-bottom:1%
+  margin-bottom:1%;
+  margin-top:1%;
+  
 }
 
 /* Clear floats after the columns */
@@ -260,7 +262,6 @@ p{
 .imagetoleft
 {
   float:left;
-  margin-right:1%
 }
 
 #infotype

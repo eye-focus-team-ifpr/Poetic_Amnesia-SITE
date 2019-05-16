@@ -1,0 +1,374 @@
+﻿{margin:0; padding: 0px;}*
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.header {
+  background-image: url("../images/stars.jpg");
+    padding: 20px;
+
+  }
+
+.footer {
+   background-image: url("../images/stars.jpg");
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+
+* {box-sizing: border-box;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2e2c30;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(253, 247, 247);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: rgb(143, 172, 236);
+  color: black;
+  -moz-box-shadow: 0 5px 3px 0 rgb(122, 85, 255);
+  -webkit-box-shadow: 0 5px 3px 0 rgb(122, 85, 255);
+  text-shadow: rgb(14, 116, 211);
+}
+
+.topnav a.active {
+  background-color: rgb(94, 0, 245);
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(88, 0, 160);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: rgb(149, 164, 252);
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+  #imagem {
+    display: block;
+    margin-left: auto;
+	  margin right: auto;
+    width: 60px; 
+    height: 30px;
+  }
+
+  #imagem2 {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+	width: 500px; 
+	height: 320px;
+  
+  }
+
+  #imagem3 {
+  position: initial;
+  text-align: center;
+  padding: 5px;
+  margin-left:auto;
+  margin-right: auto;
+ 
+  }
+  
+
+@font-face { 
+    font-family: Bellerose; 
+    src: url('../Fonts/Bellerose.ttf'); 
+}
+
+
+.column {
+  float: left;
+  width: 36%;
+  padding: 10px;
+  height: 300px;
+   margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 200px;
+}
+
+.column3 {
+  float: right;
+  width:20%;
+  padding: 10px;
+  height: 500px;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+.fakeimg {
+  background-image: url ("../images/logo.jpg");
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #2e2c30;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/*----------------------------------------------GALLERY--------------------------------------------*/
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+/*-------------------------------------------------------letters-------------------------------------------*/
+h2 {
+  font-family: Bellerose;
+  font-size: 30px;
+  color: rgb(74, 74, 243);
+  line-height: 1.5;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+p{
+    font-family: Georgia;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.5;
+    text-indent: 1.5em;
+  }
+
+  h1 {
+    font-family: Bellerose;
+    font-size: 30px;
+    color: rgb(76, 76, 238);
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-family: Bellerose;
+    font-size: 30px;
+    color: rgb(74, 74, 243);
+    line-height: 1.5;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  h3 {
+    font-family: Times;
+    font-size: 20px;
+    color: rgb(74, 74, 243);
+    line-height: 1.5;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  
+  h4 {
+    font-family: Georgia;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 1.5;
+  }
+
+  h5 {
+    font-family: Georgia;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 1.5;
+  }

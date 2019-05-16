@@ -245,6 +245,7 @@ body{
 }
 
 .button2 {
+  float: center;
   border: none;
   outline: 0;
   display: inline-block;
@@ -259,7 +260,7 @@ body{
 }
 
 .button2:hover {
-  background-color: #CCE5FF;
+  background-color: rgb(146, 189, 235);
 }
 
 .boxshadow {

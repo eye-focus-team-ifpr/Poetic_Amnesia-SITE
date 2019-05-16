@@ -1,0 +1,150 @@
+<<<<<<< HEAD
+﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+	<head> 
+		<link rel="stylesheet" type = "text/css" href="../css/productstyle.css">
+		<meta charset="utf-8"/>
+		<title> EYEFOCUS </title>
+		<link rel="icon" href="../images/icoon.png">
+	</head>
+
+	<body>
+
+		<div class="header">
+
+			<figure>
+				<img src="../images/logo2.png" alt="logo eyefocus" id="imagem" title="eyefocus">
+			</figure>
+
+		</div>
+		<hr> 
+
+		<img src="../images/logo.jpg" alt="logo eyefocus"  id="imagem2" title="eyefocus">
+
+
+
+<div class="topnav">
+  <a class="active" href="home.html"><img src="../images/homes.png" alt="home" width="30" height="25" id="imagem3" title="eyefocus"></a>
+  <a href="games.html">GAME</a>
+  <a href="company.html">COMPANY</a>
+  <a href="group.html">GROUP</a>
+  <a href="products.html">PRODUCTS</a>
+  <a href="contact.html">CONTACT</a>
+
+  	<div class="search-container">
+   	 <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><img src="../images/search.png" width:="10px" height="10px"></button>
+   	 </form>
+  	</div>
+	</div>
+	
+
+	<h2 style="text-align:center">PRODUCTS</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="../images/peter2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="../images/gab.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="../images/gab2.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="../images/ju1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="../images/ju2.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="../images/funny.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+
+
+
+
+
+
+
+</body>
+
+<br>
+<div class="footer">
+ &copyJuliana Destefani 
+</div>

@@ -1,25 +1,17 @@
 *{margin:0; padding: 0px;}*
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     color: white;
 }
 
-.header 
-{
-  background-image: url("../images/stars.jpg");
-  padding: 20px;
-}
+.header {
+    background-image: url("../images/Game/header_bg.jpg");
+    padding: 20px;
 
-.footer {
-  background-image: url("../images/stars.jpg");
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
+  }
+
+
 
 * {box-sizing: border-box;}
 
@@ -38,16 +30,21 @@ body{
   font-size: 20px;
 }
 
+.column a{
+  text-decoration: none;
+}
+
 .topnav a:hover {
-  background-color: rgb(143, 172, 236);
+  background-color: rgb(199, 126, 37);
   color: black;
-  -moz-box-shadow: 0 5px 3px 0 rgb(122, 85, 255);
-  -webkit-box-shadow: 0 5px 3px 0 rgb(122, 85, 255);
+  -moz-box-shadow: 0 5px 3px 0 rgb(136, 85, 24);
+  -webkit-box-shadow: 0 5px 3px 0 rgb(136, 85, 24);
+  font-weight: bolder;
   text-shadow: rgb(14, 116, 211);
 }
 
 .topnav a.active {
-  background-color: rgb(94, 0, 245);
+  background-color: rgb(88, 48, 0);
   color: white;
 }
 
@@ -67,14 +64,14 @@ body{
   padding: 6px 10px;
   margin-top: 8px;
   margin-right: 16px;
-  background: rgb(88, 0, 160);
+  background: rgb(199, 134, 48);
   font-size: 17px;
   border: none;
   cursor: pointer;
 }
 
 .topnav .search-container button:hover {
-  background: rgb(149, 164, 252);
+  background: rgb(228, 163, 76);
 }
 
 @media screen and (max-width: 600px) {
@@ -94,52 +91,43 @@ body{
   }
 }
 
-
-.container {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.container img {vertical-align: middle;}
-
-.container .content {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-
+.footer {
+    background-image: url(../images/Game/header_bg.jpg);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
 
   #imagem {
-    display: block;
-    margin-left: auto;
-	  margin-right: auto;
+    margin-left: 1500px;
     width: 60px; 
     height: 30px;
   }
 
   #imagem2 {
-  display: block;
-  margin-left:auto;
-  margin-right: auto;
-	width: 500px; 
-	height: 320px;
-  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
   }
 
   #imagem3 {
-  position: initial;
-  text-align: center;
-  padding: 5px;
-  margin-left:auto;
-  margin-right: auto;
- 
+    position: initial;
+    text-align: center;
   }
+
+.rightcolumn .card p a,.leftcolumn .card p a, .rightcolumn .card a {
+  text-decoration: none;
+}
+
+.column a img{
+  padding: 0px 0px 0px 10px;
+}
   
 
 @font-face { 
@@ -152,15 +140,13 @@ body{
   float: left;
   width: 50%;
   padding: 10px;
-  height: 350px;
-}
-.column2 {
-  float: left;;
-  width: 29.33%;
-  display: block;
-
+  height: auto;
 }
 
+.ImageTest {
+  float: right;
+  margin: 30px;
+}
 
 .row:after {
   content:"";
@@ -175,23 +161,23 @@ body{
 
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 75%;
   padding-left: 20px;
 }
 
 .fakeimg {
-  background-image: url ("../images/logo.jpg");
+  background-image: url ("../images/micro.jpg");
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: #2e2c30;
+  background-color: rgb(48, 44, 44);
   padding: 20px;
-  margin-top: 20px;
-  margin-left:200px;
-  margin-right:200px;
+  margin-left:20%;
+  margin-right:20%;
+  margin-bottom:1%
 }
 
 /* Clear floats after the columns */
@@ -201,70 +187,83 @@ body{
  clear: both;
 }
 
-
-
 h2 {
   font-family: Bellerose;
   font-size: 30px;
-  color: rgb(74, 74, 243);
+  color: rgb(243, 194, 74);
   line-height: 1.5;
   padding-bottom: 10px;
   padding-left: 10px;
+  text-indent: 1.5em;
+}
+
+h1 {
+  /*font-family: Bellerose;*/
+  font-size: 30px;
+  color: rgb(243, 194, 74);
+  line-height: 1.5;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
  .leftcolumn, .rightcolumn {   
    width: 100%;
    padding: 0;
  }
- }
+}
 
 p{
-    font-family: Georgia;
-    font-size: 20px;
-    color: white;
+    font-family: /* 'Times New Roman', Times,*/ sans-serif;
+    font-size: 18px;
+    text-align: justify;
     padding-left: 25px;
     padding-right: 25px;
     line-height: 1.5;
-    text-indent: 1.5em;
   }
 
-  h1 {
-    font-family: Bellerose;
-    font-size: 30px;
-    color: rgb(76, 76, 238);
-    line-height: 1.5;
-    text-align:center;
-  }
-
-  h2 {
-    font-family: Bellerose;
-    font-size: 30px;
-    color: rgb(74, 74, 243);
-    line-height: 1.5;
-    padding-bottom: 10px;
-    padding-left: 10px;
-  }
-
-  h3 {
-    font-family: Times;
-    font-size: 20px;
-    color: rgb(74, 74, 243);
-    line-height: 1.5;
-    padding-bottom: 10px;
-    padding-left: 10px;
-  }
-
-  
-  h4 {
-    font-family: Georgia;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    padding-top: 100px;
-    text-indent: 1.5em;
-  }
   hr {
-    color: rgb(66, 66, 255); 
+    color: rgb(243, 194, 74);
   }
 
+/* CORRELATED GAMES*/
+#Correlated01{
+    float: left;
+    padding:20px 0;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: rgb(46, 44, 48);
+    width: 50%;
+}
+
+#Correlated02{
+    float: right;
+    padding:20px 0;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgb(46, 44, 44);
+    width: 50%;
+}
+
+#Correlated02 h3, #Correlated01 h3{
+  color:rgb(234, 188, 65);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.CorrelatedGames{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.imagetoleft
+{
+  float:left;
+  margin-right:1%
+}
+
+#infotype
+{
+  text-align:center;
+}

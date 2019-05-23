@@ -168,7 +168,7 @@ body
 
 .leftcolumn {
 	float:left;
-	width: 1000px;
+	width: 800px;
 }
 
 .rightcolumn {
@@ -343,7 +343,7 @@ p{
     line-height: 1.5;
 }
 
-/*---------------------layout do usuário------------------*/
+/*---------------------layout do usuï¿½rio------------------*/
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
